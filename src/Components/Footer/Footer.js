@@ -21,14 +21,7 @@ function Footer() {
             <div className="col-md-15 col-sm-20 footer-bottom">
                 <div>
                     <div className="payment-logo"></div>                    <div>
-                        		<div className="moduletable">
-					<a target="_blank" href="https://www.facebook.com/Faberlickyrgyzstanofficial/" className="footerSocialItem f"> </a>
-<a target="_blank" href="https://www.instagram.com/faberlic.kyrgyzstan.official" className="footerSocialItem i"></a>
-<a target="_blank" href="https://vk.com/faberlicofficial" className="footerSocialItem vk"></a>
-<a target="_blank" href="https://ok.ru/faberlicrussia" className="footerSocialItem o"></a>
-<a target="_blank" href="https://twitter.com/faberlicrussia" className="footerSocialItem tw"></a>
-<a target="_blank" href="https://t.me/official_faberlic" className="footerSocialItem t"></a>
-		</div>
+                        		
 	
                         <div className="footerCopyright">Copyright © 2024 АО «Фаберлик»</div>
                     </div>

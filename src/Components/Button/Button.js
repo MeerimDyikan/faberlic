@@ -2,9 +2,10 @@ import './Button.css';
 
 function Button() {
   return (
-    <>
-      Button
-    </>
+    <div className=" button flex " >
+    <button className="Btn">вход</button>
+    <button className="Btn">Регистрация</button>
+    </div>
   );
 }
 

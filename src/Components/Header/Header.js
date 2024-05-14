@@ -9,6 +9,7 @@ function Header() {
     <header className="header">
     <Logo/>
    <Menu/>
+   <Button/>
 </header>
 
     
