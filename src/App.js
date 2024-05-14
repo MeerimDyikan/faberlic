@@ -20,6 +20,7 @@ function App() {
     <div className='App'>
       <Router>
         <Header />
+        <Home/>
         <main>
           <div className="container">
             <Routes>
@@ -33,6 +34,7 @@ function App() {
             </Routes>
           </div>
         </main>
+        <About/>
         <Footer />
       </Router>
     </div>

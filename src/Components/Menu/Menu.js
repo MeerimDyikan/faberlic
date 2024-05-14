@@ -6,19 +6,20 @@ function Menu() {
     <nav className='Menu'>
       <ul className='flex'>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Главная</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about">О компании</Link>
         </li>
         <li>
-          <Link to="/delivery">Delivery</Link>
+          <Link to="/delivery">Доставка</Link>
         </li>
         <li>
-          <Link to="/contacts">Contacts</Link>
+          <Link to="/contacts">Контакты</Link>
         </li>
       </ul>
     </nav>
+    
   );
 }
 

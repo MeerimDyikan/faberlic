@@ -1,0 +1,25 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; /* Цвет фона */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+}
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 20px; /* Расстояние между пунктами меню */
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333333; /* Цвет текста */
+    font-weight: bold;
+}

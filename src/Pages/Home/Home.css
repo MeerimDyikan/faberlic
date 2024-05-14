@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .slider-container {
+    width: 100%;
+    height: 400px; /* Измените высоту слайдера по вашему усмотрению */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+    width: 300%; /* Общая ширина слайдера будет равна ширине одного слайда, умноженной на количество слайдов */
+    animation: slideAnimation 10s infinite;
+  }
+  
+  .slide {
+    flex: 1;
+    height: 100%;
+  }
+ .swipper-button-next, .swiper-rtl .swipper-button-prev{
+  right: 140px;
+  left: auto;
+ }
+  
+ 
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(0%);
+    }
+    33.33% {
+      transform: translateX(-100%);
+    }
+    66.66% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
