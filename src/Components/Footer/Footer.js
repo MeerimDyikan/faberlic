@@ -3,6 +3,7 @@ import footerImg from "../../images/1 (1).svg"
 import footerImg1 from "../../images/2.svg"
 import footerImg2 from "../../images/3.svg"
 import footerImg3 from "../../images/4.svg"
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -28,7 +29,9 @@ function Footer() {
                     <div className="footer_icons flex">
 						<a href={footerImg}className="footer_ic footer_ic-tw">https://twitter.com/i/flow/login?redirect_after_login=%2Ffaberlicrussia</a>
 						<a href={footerImg1} className="footer_ic footer_ic-fb"> https://www.facebook.com/Faberlickyrgyzstanofficial/</a>
-						<a href={footerImg2}className="footer_ic footer_ic footer_ic-inst">https://www.instagram.com/faberlic.kyrgyzstan.official</a>
+						<a href="https://www.instagram.com/faberlic.kyrgyzstan.official"className="footer_ic footer_ic footer_ic-inst"></a>
+					<Link><img src={footerImg2} alt="" /></Link>
+            <Link className="footer_ic footer_ic footer_ic-inst" to ="https://www.instagram.com/faberlic.kyrgyzstan.official"> <img src={footerImg2} alt="" /> </Link>
 						<a href={footerImg3} className="footer_ic footer_ic-git"></a>
 					</div>
                         		

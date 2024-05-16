@@ -2,7 +2,7 @@ import './Delivery.css';
 
 function Delivery() {
   return (
-    <>
+   
       <body className="" role="document"><div className="backgroundloginForm"></div>
 
 <div className="cookie-consent">
@@ -61,8 +61,8 @@ function Delivery() {
 </li>
 </ul>
 <form id="fllocation" action="" method="post">
-<input type="hidden" name="r" value="1000034185671">
-<input type="hidden" name="lang" value="">
+<input type="hidden" name="r" value="1000034185671"/>
+<input type="hidden" name="lang" value=""/>
 </form>
 
 <div class="clear"></div><div class="modal fade" id="modal-of-change-bs" tabindex="-1" role="dialog" aria-labelledby="modal-of-change-bsLabel" aria-hidden="true">
@@ -118,7 +118,7 @@ function Delivery() {
                             <div class="form-group">
                                 <h3>Найдены пользователи с похожим профилем:</h3>
                                 <div class="other"></div>
-                                <hr>
+                                <hr/>
                             </div>
                         </div>
                         <div class="form-group">
@@ -183,32 +183,32 @@ function Delivery() {
 </header>
 </div>
 
-<div class="menu">
+<div className="menu">
 
-<div class="container">
-<nav class="navbar navbar-default">
+<div className="container">
+<nav className="navbar navbar-default">
 
-<div class="collapse navbar-collapse navbar-desktop-content">
-<ul class="nav nav-justified">
-    <li class="navItem green-text" aria-controls="navpanel-newgoods">
+<div className="collapse navbar-collapse navbar-desktop-content">
+<ul className="nav nav-justified">
+    <li className="navItem green-text" aria-controls="navpanel-newgoods">
         <a href="/index.php?option=com_catalog&amp;view=listgoods&amp;bnew=1&amp;Itemid=2075&amp;lang=ru">Новинки</a>
     </li>
 
-    <li class="navItem " aria-controls="navpanel-1001159186333">
+    <li className="navItem " aria-controls="navpanel-1001159186333">
                         <a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1001159186333&amp;Itemid=2075&amp;lang=ru">Уход</a>
-                    </li><li class="navItem " aria-controls="navpanel-1001159186332">
+                    </li><li className="navItem " aria-controls="navpanel-1001159186332">
                         <a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1001159186332&amp;Itemid=2075&amp;lang=ru">Макияж</a>
-                    </li><li class="navItem " aria-controls="navpanel-1000175334690">
+                    </li><li className="navItem " aria-controls="navpanel-1000175334690">
                         <a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000175334690&amp;Itemid=2075&amp;lang=ru">Парфюмерия</a>
-                    </li><li class="navItem " aria-controls="navpanel-1000175334844">
+                    </li><li className="navItem " aria-controls="navpanel-1000175334844">
                         <a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000175334844&amp;Itemid=2075&amp;lang=ru">Мода</a>
-                    </li><li class="navItem " aria-controls="navpanel-1000175334795">
+                    </li><li className="navItem " aria-controls="navpanel-1000175334795">
                         <a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000175334795&amp;Itemid=2075&amp;lang=ru">Здоровье</a>
-                    </li><li class="navItem " aria-controls="navpanel-1000175334776">
+                    </li><li className="navItem " aria-controls="navpanel-1000175334776">
                         <a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000175334776&amp;Itemid=2075&amp;lang=ru">Дом</a>
-                    </li><li class="navItem " aria-controls="navpanel-1000180022575">
+                    </li><li className="navItem " aria-controls="navpanel-1000180022575">
                         <a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022575&amp;Itemid=2075&amp;lang=ru">Бизнес</a>
-                    </li>                <!--/*Кнопки "Акции" и "Распродажа"*/-->
+                    </li>             
     <li class="navItem red-text" aria-controls="navpanel-actiongoods">
         <a href="/index.php?option=com_catalog&amp;view=promolist&amp;Itemid=2075&amp;lang=ru">Акции</a>
     </li>
@@ -222,12 +222,12 @@ function Delivery() {
 <div class=" searchtopsearch">
 
 <div class="input-group">
-<input name="searchword" maxlength="20" alt="Поиск" class="form-control inputbox inputboxtopsearch" type="text" size="20" value="" placeholder="Поиск..."><span class="input-group-btn"><button type="submit" value="&nbsp;" class="btn btn-default buttontopsearch" onclick="this.form.searchword.focus();" disabled="">&nbsp;<i class="fa fa-search"></i>&nbsp;</button></span>	</div>	
+<input name="searchword" maxlength="20" alt="Поиск" class="form-control inputbox inputboxtopsearch" type="text" size="20" value="" placeholder="Поиск..."/><span class="input-group-btn"><button type="submit" value="&nbsp;" class="btn btn-default buttontopsearch" onclick="this.form.searchword.focus();" disabled="">&nbsp;<i className="fa fa-search"></i>&nbsp;</button></span>	</div>	
 
 </div>
-<input type="hidden" name="task" value="search">
-<input type="hidden" name="option" value="com_search">
-<input type="hidden" name="Itemid" value="">
+<input type="hidden" name="task" value="search"/>
+<input type="hidden" name="option" value="com_search"/>
+<input type="hidden" name="Itemid" value=""/>
 </form>		</div>
                 <span class="decor panel-search-but" data-toggle="collapse" role="button" href="#collapsesearch" aria-expanded="false" aria-controls="collapsesearch"></span>
             </label>
@@ -282,16 +282,16 @@ function Delivery() {
         </div><div id="navpanel-1000180022575" className="panelItem">
             <div className="container">
                 <div className="panel-wrap row">
-                    <div className="col-md-30 col-sm-20"><div class="row menucolumn" style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;"><div><ul className="firstlevel"><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022581&amp;Itemid=2075&amp;lang=ru">Товары для бизнеса</a><ul class="secondlevel"><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022582&amp;Itemid=2075&amp;lang=ru">Каталог, прайс-лист</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022586&amp;Itemid=2075&amp;lang=ru">Пробные образцы</a><ul class="thirdlevel" style="display:none;"><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022589&amp;Itemid=2075&amp;lang=ru">Для макияжа</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022591&amp;Itemid=2075&amp;lang=ru">Ароматы</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022592&amp;Itemid=2075&amp;lang=ru">Для дома</a></li></ul></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022585&amp;Itemid=2075&amp;lang=ru">Блоттеры, палитры, листовки</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022584&amp;Itemid=2075&amp;lang=ru">Плакаты, наклейки, календари</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022593&amp;Itemid=2075&amp;lang=ru">Бизнес-аксессуары</a></li></ul> </li></ul></div><div><ul class="firstlevel"><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022576&amp;Itemid=2075&amp;lang=ru">Пакеты, подарки</a><ul class="secondlevel"><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022578&amp;Itemid=2075&amp;lang=ru">Пакеты полиэтиленовые</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022577&amp;Itemid=2075&amp;lang=ru">Пакеты бумажные</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022580&amp;Itemid=2075&amp;lang=ru">Открытки, сувениры</a></li></ul> </li></ul></div></div> </div>
-                    <div data-colcount="2" class="col-md-30 col-sm-40 navpanel-lseparate navpanel-content"></div>
+                        <div className="col-md-30 col-sm-20"><div className="row menucolumn" ><div><ul className="firstlevel"><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022581&amp;Itemid=2075&amp;lang=ru">Товары для бизнеса</a><ul className="secondlevel"><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022582&amp;Itemid=2075&amp;lang=ru">Каталог, прайс-лист</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022586&amp;Itemid=2075&amp;lang=ru">Пробные образцы</a><ul className=""><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022589&amp;Itemid=2075&amp;lang=ru">Для макияжа</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022591&amp;Itemid=2075&amp;lang=ru">Ароматы</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022592&amp;Itemid=2075&amp;lang=ru">Для дома</a></li></ul></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022585&amp;Itemid=2075&amp;lang=ru">Блоттеры, палитры, листовки</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022584&amp;Itemid=2075&amp;lang=ru">Плакаты, наклейки, календари</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022593&amp;Itemid=2075&amp;lang=ru">Бизнес-аксессуары</a></li></ul> </li></ul></div><div><ul className="firstlevel"><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022576&amp;Itemid=2075&amp;lang=ru">Пакеты, подарки</a><ul className="secondlevel"><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022578&amp;Itemid=2075&amp;lang=ru">Пакеты полиэтиленовые</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022577&amp;Itemid=2075&amp;lang=ru">Пакеты бумажные</a></li><li><a href="/index.php?option=com_catalog&amp;view=listgoods&amp;idcategory=1000180022580&amp;Itemid=2075&amp;lang=ru">Открытки, сувениры</a></li></ul> </li></ul></div></div> </div>
+                    <div data-colcount="2" className="col-md-30 col-sm-40 navpanel-lseparate navpanel-content"></div>
                 </div>
             </div>
         </div></div>	
-<div style="display:none">		<div class="moduletabletopsearch">
+<div style="display:none">		<div className="moduletabletopsearch">
 <form action="/index.php" method="post">
-<div class=" searchtopsearch">
+<div className=" searchtopsearch">
 
-<div className="input-group">
+<div classNameName="input-group">
 <input name="searchword" maxlength="20" alt="Поиск" className="form-control inputbox inputboxtopsearch" type="text" size="20" value="" placeholder="Поиск..."/><span className="input-group-btn"><button type="submit" value="&nbsp;" className="btn btn-default buttontopsearch" onclick="this.form.searchword.focus();" disabled="">&nbsp;<i className="fa fa-search"></i>&nbsp;</button></span>	</div>	
 
 </div>
@@ -331,7 +331,7 @@ function Delivery() {
 <div className="col-lg-60 col-md-60 col-sm-60 col-xs-60">
 <h1 className="page_ovd_title">Способы и условия доставки</h1>
 
-<div className="page_ovd_open_wrapper page_bg-map "><img alt="" class="page_ovd_open_img" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/01_active.svg"/> <span class="page_ovd_open_title">Пункты выдачи Faberlic</span>
+<div className="page_ovd_open_wrapper page_bg-map "><img alt="" className="page_ovd_open_img" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/01_active.svg"/> <span class="page_ovd_open_title">Пункты выдачи Faberlic</span>
 
 <div className="page_ovd_open_item">
 <div clasName="row page_ovd_open_2x-col-wrapper">
@@ -349,243 +349,94 @@ function Delivery() {
 <ul className="page_ovd_group-list">
 <li className="page_ovd_group-list-item"><img alt="" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/07.svg"/> <span>сделать</span>Ваш заказ</li>
 <li className="page_ovd_group-list-item"><img alt="" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/08.svg"/> <span>пройти</span>регистрацию</li>
-<li class="page_ovd_group-list-item"><img alt="" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/09.svg"/> <span>узнать</span>об акциях</li>
-<li class="page_ovd_group-list-item"><img alt="" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/10.svg"/> <span>получить</span>консультацию</li>
-<li class="page_ovd_group-list-item"><img alt="" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/11.svg"/> <span>оформить</span>возврат товара</li>
+<li className="page_ovd_group-list-item"><img alt="" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/09.svg"/> <span>узнать</span>об акциях</li>
+<li className="page_ovd_group-list-item"><img alt="" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/10.svg"/> <span>получить</span>консультацию</li>
+<li className="page_ovd_group-list-item"><img alt="" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/11.svg"/> <span>оформить</span>возврат товара</li>
 </ul>
 
-<div class="page_ovd_info">
-<h3 class="page_ovd_rename-title m1">стоимость доставки</h3>
+<div className="page_ovd_info">
+<h3 className="page_ovd_rename-title m1">стоимость доставки</h3>
 </div>
 
-<div class="row page_ovd_menu">
-<div class="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1 current" data-nummenu="m1" data-show="ver1" data-title="Стоимость доставки">
-<p class="page_ovd_menu-items-name">Стоимость доставки</p>
+<div className="row page_ovd_menu">
+<div className="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1 current" data-nummenu="m1" data-show="ver1" data-title="Стоимость доставки">
+<p className="page_ovd_menu-items-name">Стоимость доставки</p>
 </div>
 
-<div class="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver2" data-title="Сроки доставки">
-<p class="page_ovd_menu-items-name">Сроки доставки</p>
+<div className="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver2" data-title="Сроки доставки">
+<p className="page_ovd_menu-items-name">Сроки доставки</p>
 </div>
 
-<div class="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver3" data-title="Как отследить заказ">
-<p class="page_ovd_menu-items-name">Как отследить заказ</p>
+<div className="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver3" data-title="Как отследить заказ">
+<p className="page_ovd_menu-items-name">Как отследить заказ</p>
 </div>
 
-<div class="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver4" data-title="Срок хранения заказа">
-<p class="page_ovd_menu-items-name">Срок хранения заказа</p>
+<div className="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver4" data-title="Срок хранения заказа">
+<p className="page_ovd_menu-items-name">Срок хранения заказа</p>
 </div>
 
-<!-- <div class="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver5" data-title="Пункты выдачи">
-<p class="page_ovd_menu-items-name">Пункты выдачи</p>
-</div> -->
+<div className="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver5" data-title="Пункты выдачи">
+<p className="page_ovd_menu-items-name">Пункты выдачи</p>
+</div> 
 </div>
 
-<div class="row page_ovd_menu-content m1 ver1 show current">
+<div className="row page_ovd_menu-content m1 ver1 show current">
+<div className="col-lg-60 col-md-60 col-sm-60 col-xs-60 noPadding">
+<div className="page_ovd_ver3-content">
+<div className="page_ovd_ver3-content-el2" style="text-align: center;"><img class="page_ovd_ver3-content-el1" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/16.svg"/></div>
+
+<div className="page_ovd_ver3-content-el4">Стоимость доставки в пункт выдачи Faberlic зависит от отдаленности вашего региона и может составить <b>от 2% до 4%</b> от суммы заказа.</div>
+</div>
+</div>
+</div>
+
+<div className="row page_ovd_menu-content m1 ver2">
+<div className="col-lg-60 col-md-60 col-sm-60 col-xs-60 noPadding">
+<div className="page_ovd_ver2-content small-width"><img class="page_ovd_ver2-content-el1" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/20.svg"/>
+<p className="page_ovd_ver2-content-el2">от 3-х до 7 дней</p>
+<img className="page_ovd_ver2-content-el3" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/21.svg"/>
+<div className="page_ovd_ver2-content-el4">Дату доставки в выбранный пункт выдачи Вы увидите при оформлении заказа.</div>
+</div>
+</div>
+</div>
+
+<div className="row page_ovd_menu-content m1 ver3">
 <div class="col-lg-60 col-md-60 col-sm-60 col-xs-60 noPadding">
 <div class="page_ovd_ver3-content">
-<div class="page_ovd_ver3-content-el2" style="text-align: center;"><img class="page_ovd_ver3-content-el1" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/16.svg"></div>
-
-<div class="page_ovd_ver3-content-el4">Стоимость доставки в пункт выдачи Faberlic зависит от отдаленности вашего региона и может составить <b>от 2% до 4%</b> от суммы заказа.</div>
-</div>
-</div>
-</div>
-
-<div class="row page_ovd_menu-content m1 ver2">
-<div class="col-lg-60 col-md-60 col-sm-60 col-xs-60 noPadding">
-<div class="page_ovd_ver2-content small-width"><img class="page_ovd_ver2-content-el1" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/20.svg">
-<p class="page_ovd_ver2-content-el2">от 3-х до 7 дней</p>
-<img class="page_ovd_ver2-content-el3" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/21.svg">
-<div class="page_ovd_ver2-content-el4">Дату доставки в выбранный пункт выдачи Вы увидите при оформлении заказа.</div>
-</div>
-</div>
-</div>
-
-<div class="row page_ovd_menu-content m1 ver3">
-<div class="col-lg-60 col-md-60 col-sm-60 col-xs-60 noPadding">
-<div class="page_ovd_ver3-content">
-<div class="page_ovd_ver3-content-block"><img class="page_ovd_ver3-content-el1" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/25.svg">
-<div class="page_ovd_ver3-content-el2"><img src="https://faberlic.com/images/employee/RU/images/pages/dostavka/27.svg"></div>
-<img class="page_ovd_ver3-content-el3" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/26.svg"></div>
+<div class="page_ovd_ver3-content-block"><img class="page_ovd_ver3-content-el1" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/25.svg"/>
+<div class="page_ovd_ver3-content-el2"><img src="https://faberlic.com/images/employee/RU/images/pages/dostavka/27.svg"/></div>
+<img class="page_ovd_ver3-content-el3" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/26.svg"/></div>
 
 <div class="page_ovd_ver3-content-el4">Ожидайте SMS-сообщение с информацией о доставке</div>
 
-<div class="page_ovd_ver3-content-el4">Для получения оповещений по SMS и email поставьте соответствующие галочки при регистрации или в любое время в разделе <b>«Личные данные»/«Контакты»</b>.</div>
+<div className="page_ovd_ver3-content-el4">Для получения оповещений по SMS и email поставьте соответствующие галочки при регистрации или в любое время в разделе <b>«Личные данные»/«Контакты»</b>.</div>
 </div>
-<img class="page_ovd_ver3-content-el5" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/ver3content_img.jpg"></div>
-</div>
-
-<div class="row page_ovd_menu-content m1 ver4">
-<div class="col-lg-60 col-md-60 col-sm-60 col-xs-60 noPadding">
-<div class="page_ovd_tempus">21<span>дней</span></div>
-</div>
+<img className="page_ovd_ver3-content-el5" src="https://faberlic.com/images/employee/RU/images/pages/dostavka/ver3content_img.jpg"/></div>
 </div>
 
-<!-- <div class="row page_ovd_menu-content m1 ver5"> -->
-<!-- <div class="col-lg-60 col-md-60 col-sm-60 col-xs-60 noPadding"><a class="btn btn-primary page_ovd_white-btn" href="/index.php?option=com_list&view=list&listId=104" target="_blank">Посмотреть адреса </a></div> -->
-<!-- </div> -->
+<div className="row page_ovd_menu-content m1 ver4">
+<div className="col-lg-60 col-md-60 col-sm-60 col-xs-60 noPadding">
+<div className="page_ovd_tempus">21<span>дней</span></div>
+</div>
+</div>
+
+<div className="row page_ovd_menu-content m1 ver5">  <div className="col-lg-60 col-md-60 col-sm-60 col-xs-60 noPadding"><a className="btn btn-primary page_ovd_white-btn" href="/index.php?option=com_list&view=list&listId=104" target="_blank">Посмотреть адреса </a></div> 
+</div> 
 </div>
 </div>
 </div>
 </div>
 </div></div>
-<div class="clearfix"></div>
-<div class="item-credits row">
-    <div class="col-xs-45">
-                            <span class="item-category">Условия и стоимость доставки</span>
+<div className="clearfix"></div>
+<div className="item-credits row">
+    <div className="col-xs-45">
+                            <span className="item-category">Условия и стоимость доставки</span>
     </div>
                 </div>
 </div>
-<div class="item-footer">
+</div> 
+</body>                  
 
-<div class="article-actions pull-right">
-                                                                                                                <span class="action-icon"><a href="/index.php?view=article&amp;catid=332%3A2013-04-11-13-00-53&amp;id=134659%3A2016-12-12-08-17-21&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=&amp;option=com_content&amp;Itemid=2415&amp;lang=ru" title="Печать" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><i class="fa fa-print fa-2x"></i></a></span>
-                                    </div>
-                            <div class="footer-caption">Поделиться с друзьями</div>
-    <script type="text/javascript" src="/media/application/sociallikes/social-likes.min.js"></script><div class="social-likes social-redesign social-likes_visible" data-url="https://faberlic.com/index.php?option=com_content&amp;view=article&amp;id=134659&amp;catid=332&amp;Itemid=2415&amp;lang=ru&amp;r=1000034185671" data-personid="" data-title="" data-description="" data-counters="no" data-media="https://faberlic.com/templates/fl_w/img/common/all/share.jpg"><div class="social-likes__widget social-likes__widget_vkontakte" title="Поделиться ссылкой в социальной сети ВКонтакте"><span class="social-likes__button social-likes__button_vkontakte"><span class="social-likes__icon social-likes__icon_vkontakte"></span></span></div><div class="social-likes__widget social-likes__widget_odnoklassniki" title="Поделиться ссылкой в социальной сети Одноклассники"><span class="social-likes__button social-likes__button_odnoklassniki"><span class="social-likes__icon social-likes__icon_odnoklassniki"></span></span></div><div class="social-likes__widget social-likes__widget_facebook" title="Поделиться ссылкой в социальной сети Facebook"><span class="social-likes__button social-likes__button_facebook"><span class="social-likes__icon social-likes__icon_facebook"></span></span></div><div class="social-likes__widget social-likes__widget_twitter" title="Поделиться ссылкой в социальной сети Twitter"><span class="social-likes__button social-likes__button_twitter"><span class="social-likes__icon social-likes__icon_twitter"></span></span></div><div class="instagram" title="Поделиться ссылкой в социальной сети Instagram"></div><div class="social-likes__widget social-likes__widget_pinterest" title="Поделиться ссылкой в социальной сети Pinterest" data-media="https://faberlic.com/templates/fl_w/img/common/all/share.jpg"><span class="social-likes__button social-likes__button_pinterest"><span class="social-likes__icon social-likes__icon_pinterest"></span></span></div>
-<div data-tg="" class="social-likes__widget social-likes-messengers" data-targeturl="tg" data-href="https://faberlic.com/index.php?option=com_content&amp;view=article&amp;id=134659&amp;catid=332&amp;Itemid=2415&amp;lang=ru&amp;r=1000034185671&amp;targetUrl=tg" data-lang="" data-text="" data-style="circle">
-    <a class="telegram-share messengersShareLink" onclick="window.open('https://t.me/share/url?url='+encodeURIComponent('https://faberlic.com/index.php?option=com_content&amp;view=article&amp;id=134659&amp;catid=332&amp;Itemid=2415&amp;lang=ru&amp;r=1000034185671&amp;targetUrl=tg'), '_blank')">        
-        <img class="grayscale telegram_img" src="templates/fl_w/img/common/all/telegram.svg">
-    </a>
-</div><div data-whatsup="" class="social-likes__widget social-likes-messengers" data-href="https://faberlic.com/index.php?option=com_content&amp;view=article&amp;id=134659&amp;catid=332&amp;Itemid=2415&amp;lang=ru&amp;r=1000034185671&amp;targetUrl=wa" data-targeturl="wa" data-lang="" data-text="" data-style="circle">
-        <a class="messengersShareLink" onclick="window.open('https://api.whatsapp.com/send?phone=&amp;text='+encodeURIComponent('https://faberlic.com/index.php?option=com_content&amp;view=article&amp;id=134659&amp;catid=332&amp;Itemid=2415&amp;lang=ru&amp;r=1000034185671&amp;targetUrl=wa'), 'window_wa', 'width=480,height=480,resizable=yes,scrollbars=yes')">
-            <img class="whatsapp_img" src="templates/fl_w/img/common/all/whatsapp.svg">
-        </a>
-        </div><div data-viber="" class="social-likes__widget social-likes-messengers" data-href="https://faberlic.com/index.php?option=com_content&amp;view=article&amp;id=134659&amp;catid=332&amp;Itemid=2415&amp;lang=ru&amp;r=1000034185671&amp;targetUrl=vi" data-targeturl="vi" data-lang="" data-text="" data-style="circle">
-
-        <a target="_blank" class="messengersShareLink" href="/index2.php?option=com_page&amp;view=viber&amp;text=https%3A%2F%2Ffaberlic.com%2Findex.php%3Foption%3Dcom_content%26amp%3Bview%3Darticle%26amp%3Bid%3D134659%26amp%3Bcatid%3D332%26amp%3BItemid%3D2415%26amp%3Blang%3Dru%26r%3D1000034185671%26targetUrl%3Dvi">
-                <img class="grayscale viber_img" src="templates/fl_w/img/common/all/viber.svg">
-       </a>
-  </div></div>                                    <div class="article-link-block row">
-    <div class="permalink-caption col-xs-20">
-        <i class="fa fa-link fa-flip-horizontal fa-lg"></i><a class="active" href="javascript:void(0)">Ссылка на материал</a>
-    </div>
-    <div class="permalink-container col-xs-40">
-                            <input class="form-control permalink" value="https://faberlic.com/index.php?option=com_content&amp;view=article&amp;id=134659&amp;catid=332&amp;Itemid=2415&amp;lang=ru">
-    </div>
-</div>
-        </div>
-</div>
-</div>
-    </div>
-                        </div>
-</div>
-
-</div></div>
-<div class="col-md-11 col-md-pull-49"><div class="leftcol hidden-xs hidden-sm">		<div class="moduletable_leftmenu">
-<ul class="menu_leftmenu"><li class="parent item3494"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=502&amp;Itemid=3494&amp;lang=ru"><span>Как оформить заказ</span></a></li><li class="item2409"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=326&amp;Itemid=2409&amp;lang=ru"><span>Оплата</span></a></li><li id="current" class="active item2415"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=332&amp;Itemid=2415&amp;lang=ru"><span>Доставка</span></a></li><li class="item2442"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=353&amp;Itemid=2442&amp;lang=ru"><span>Возврат</span></a></li><li class="item2411"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=328&amp;Itemid=2411&amp;lang=ru"><span>Регистрация</span></a></li></ul>		</div>
-</div></div>
-</div>
-</div>
-
-
-</div>
-
-
-
-<footer class="footer">
-<div class="container">
-<div class="row footerContent">
-<div class="col-md-30 col-sm-40">
-        <div class="moduletable_menufooter">
-<ul class="menu_menufooter" id="footer-menu"><li class="item5314 parent col-xs-60 col-sm-30"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=13&amp;Itemid=5306"><span>Компания</span></a><ul id="footer_item5314"><li class="item5315"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=13&amp;Itemid=5306"><span>О Faberlic</span></a></li><li class="item5318"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=1075&amp;Itemid=5307"><span>Корпоративные ценности</span></a></li><li class="item5319"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=11&amp;Itemid=5308"><span>Центр научных разработок</span></a></li><li class="item5320"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=10&amp;Itemid=5309"><span>Собственное производство</span></a></li><li class="item5321"><a href="index.php?option=com_content&amp;layout=newsfeed&amp;view=service&amp;category=news"><span>Новости</span></a></li><li class="item5322"><a href="index.php?option=com_content&amp;layout=newsfeed&amp;view=service&amp;category=novelty"><span>Новинки каталога</span></a></li><li class="item5325"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=65&amp;Itemid=5313"><span>Контакты</span></a></li></ul></li><li class="item4352 parent col-xs-60 col-sm-30"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=502&amp;Itemid=3494"><span>Сервис</span></a><ul id="footer_item4352"><li class="item4382"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=502&amp;Itemid=3494"><span>Как оформить заказ</span></a></li><li class="item4388"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=326&amp;Itemid=2409"><span>Оплата</span></a></li><li class="item5178"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=332&amp;Itemid=2415"><span>Доставка</span></a></li><li class="item5170"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=353&amp;Itemid=2442"><span>Возврат</span></a></li><li class="item4406"><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=328&amp;Itemid=2411"><span>Регистрация</span></a></li></ul></li></ul>		</div>
-
-</div>
-<div class="col-md-15 col-sm-20">
-        <div class="moduletable">
-
-<ul class="footer-spec-list menu-icon">
-<li><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=379&amp;Itemid=2678"><i class="footer-icon partnership"></i>Партнерство</a></li><li><a href="index.php?option=com_geography&amp;view=geography"><i class="footer-icon point-delivery"></i>Пункты выдачи</a></li><li><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=1086&amp;Itemid=5342"><i class="footer-icon mobile-app"></i>Обучение</a></li><li><a href="index.php?option=com_flippingbook&amp;view=catalog&amp;Itemid=2071"><i class="footer-icon business-news"></i>Листать каталог</a></li></ul>		</div>
-
-</div>
-<div class="col-md-15 col-sm-20 footer-bottom">
-    <div>
-        <div class="payment-logo"></div>                    <div>
-                <div class="moduletable">
-<a target="_blank" href="https://www.facebook.com/Faberlickyrgyzstanofficial/" class="footerSocialItem f"></a>
-<a target="_blank" href="https://www.instagram.com/faberlic.kyrgyzstan.official" class="footerSocialItem i"></a>
-<a target="_blank" href="https://vk.com/faberlicofficial" class="footerSocialItem vk"></a>
-<a target="_blank" href="https://ok.ru/faberlicrussia" class="footerSocialItem o"></a>
-<a target="_blank" href="https://twitter.com/faberlicrussia" class="footerSocialItem tw"></a>
-<a target="_blank" href="https://t.me/official_faberlic" class="footerSocialItem t"></a>
-</div>
-
-            <div class="footerCopyright">Copyright © 2024 АО «Фаберлик»</div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-</footer>
-
-</div>
-
-<script type="text/javascript">
-
-let wr_units = JSON.parse('[]');
-
-if (wr_units.length === 0 || (getCookie('idorgunit') && wr_units.includes(getCookie('idorgunit')))) {
-let scriptWR = document.createElement("script");
-scriptWR.async = true;
-scriptWR.type = 'text/javascript';
-scriptWR.src = '//faberlic.novardis.com/client.js';
-document.body.appendChild(scriptWR);
-}
-
-function jivo_onMessageSent() {
-if (getCookie('consnmb') != undefined) {
-jivo_api.setCustomData([
-    {
-        "title": "Консультант",
-        "content": getCookie('consnmb')
-    }
-]);
-}
-}
-function getCookie(name) {
-const value = `; ${document.cookie}`;
-const parts = value.split(`; ${name}=`);
-if (parts.length === 2) return parts.pop().split(';').shift();
-}
-
-if(window.location.href.indexOf('com_flform&idform=514') > -1 && getCookie('idorgunit') == '1000318652091') {
-let scriptJivo = document.createElement("script");
-scriptJivo.async = true;
-scriptJivo.type = 'text/javascript';
-scriptJivo.src = '//code.jivo.ru/widget/zlcMJZmNZW';
-document.body.appendChild(scriptJivo);
-}
-</script><script async="" type="text/javascript" src="//faberlic.novardis.com/client.js"></script>
-
-
-<script type="text/javascript" id="">if(""==document.referrer){var direct=!0;ga("set","dimension3",direct)};</script><iframe style="display: none; position: absolute; left: -999999px; right: -999999px" src="https://eu.id.group-ib.com/id.html"></iframe> <div class="uxs-3PczEFQfzI uxs-cal2y6" id="uxs_5d39d2cbc3a2b20daec9deaa_container" style="
---zIndexPassiveFeedbackIcon: 2147483647;
---zIndexForm: 2147483647;
-"> <div id="uxs_5d39d2cbc3a2b20daec9deaa" class="uxs-1EtET47wGe uxs-3oze3m" style="top: calc(50% + 100px - 0px); right: 0px; MsTransform: translateY(-50%); WebkitTransform: translateY(-50%); transform: translateY(-50%);" data-ignore-node="" aria-hidden="true"><img src="https://widget.uxfeedback.ru/5d39d2cbc3a2b20daec9deaa/qkpn9xzo.svg" alt="UX Feedback" style="width: 41px !important;" aria-hidden="true" class="uxs-3oze3m"> </div> </div>
-<script type="text/javascript" id="">var GOAL_TYPE={LIST_VIEW:"list_view",PRODUCT_CLICK:"product_click",PRODUCT_VIEW:"product_view",PRODUCT_ADD_TO_CART:"product_add_to_cart",ORDER_CONFIRM:"order_confirm"};function parseEventContext(b){var d={};b=b.split(";");for(var c=0;c<b.length;c++){var a=b[c],e=a.split(":")[0];a=a.split(":").slice(1).join(":");d[e]=a}return d}function getAddMethod(b){b=b.match("addMethod:[a-zA-Z]+");return null!=b?b=b[0].split(":")[1]:null}
-function getItemIDS(b){for(var d=[],c=0;c<b.items.length;c++)d.push(b.items[c].item_id);return d}function getItemQtts(b){for(var d=[],c=0;c<b.items.length;c++)d.push(b.items[c].quantity);return d}function getTransactionID(b){return b.transaction_id}
-function composeParamsString(b,d,c){var a=parseEventContext(d);var e=getItemIDS(c);switch(b){case GOAL_TYPE.LIST_VIEW:a=[e.join(","),a.country,a.language,a.interactionPage,google_tag_manager["rm"]["1417577"](32)];break;case GOAL_TYPE.PRODUCT_CLICK:a=[e[0],a.country,a.language,a.interactionPage,google_tag_manager["rm"]["1417577"](33)];break;case GOAL_TYPE.PRODUCT_VIEW:a=[e[0],a.country,a.language,a.interactionPage,google_tag_manager["rm"]["1417577"](34)];break;case GOAL_TYPE.PRODUCT_ADD_TO_CART:c=getItemQtts(c);d=getAddMethod(d);a=[e[0],a.country,a.language,
-a.interactionPage,d,c[0],google_tag_manager["rm"]["1417577"](35)];break;case GOAL_TYPE.ORDER_CONFIRM:d=getTransactionID(c);c=getItemQtts(c);a=[e.join(","),a.country,a.language,a.interactionPage,c.join(","),d];break;default:a=[]}return a=a.join(";")};</script>
-
-
-
-
-
-<script type="text/javascript" id="">(function(a,e,f,g,b,c,d){a[b]=a[b]||function(){(a[b].a=a[b].a||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(34398565,"init",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,webvisor:!0,trackHash:!0,ecommerce:"dataLayer",params:{sponsorNumber:google_tag_manager["rm"]["1417577"](36)}});ym(54703555,"init",{clickmap:!1,trackLinks:!0,webvisor:!1,accurateTrackBounce:!0});</script>
-<noscript>
-<div>
-<img src="https://mc.yandex.ru/watch/34398565" style="position:absolute; left:-9999px;" alt="">
-</div>
-</noscript>
-<script type="text/javascript" id="">(function(){function a(){google_tag_manager["rm"]["1417577"](37)&&(__check_auth_state_intervalId=window.setInterval(b,200))}function b(){"undefined"!==typeof fbq&&(_tmr.push({id:"2324470",type:"reachGoal",goal:"event_auth"}),clearInterval(__check_auth_state_intervalId))}"complete"===document.readyState?a():window.addEventListener?window.addEventListener("load",a,!1):window.attachEvent&&window.attachEvent("onload",a)})();</script><script type="text/javascript" id="">!function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://vk.com/js/api/openapi.js?168";a.onload=function(){VK.Retargeting.Init("VK-RTRG-584212-5Oymt");VK.Retargeting.Hit()};document.head.appendChild(a)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-584212-5Oymt" style="position:fixed; left:-999px;" alt=""></noscript>
-<script type="text/javascript" id="">var _tmr=window._tmr||(window._tmr=[]);_tmr.push({id:"2324470",type:"pageView",start:(new Date).getTime()});(function(c,d,a){if(!c.getElementById(a)){var b=c.createElement("script");b.type="text/javascript";b.async=!0;b.id=a;b.src="https://top-fwz1.mail.ru/js/code.js";a=function(){var a=c.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)};"[object Opera]"==d.opera?c.addEventListener("DOMContentLoaded",a,!1):a()}})(document,window,"topmailru-code");</script><noscript><div>
-<img src="https://top-fwz1.mail.ru/counter?id=2324470;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru">
-</div></noscript>
-
-<script type="text/javascript" id="">var _tmr=_tmr||[];_tmr.push({type:"itemView",productid:"VALUE",pagetype:"VALUE",list:"VALUE",totalvalue:"VALUE"});</script>
-
-
-<script type="text/javascript" async="" src="https://top-fwz1.mail.ru/js/dyn-goal-config.js?ids=2324470"></script></body>
-    </>
   );
 }
 
