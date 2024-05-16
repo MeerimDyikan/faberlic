@@ -1,0 +1,18 @@
+.info_f {
+	color: #2c2f24;
+	font-family: 'Playfair Display', arial, sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 61px;
+	
+}
+.info_p {
+	color:black;
+	font-family: 'Playfair Display', arial, sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 61px;
+	letter-spacing: 0px;
+	text-align: center;
+	font-style: normal;
+}

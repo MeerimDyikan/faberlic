@@ -1,4 +1,8 @@
 import './Footer.css';
+import footerImg from "../../images/1 (1).svg"
+import footerImg1 from "../../images/2.svg"
+import footerImg2 from "../../images/3.svg"
+import footerImg3 from "../../images/4.svg"
 
 function Footer() {
   return (
@@ -21,6 +25,12 @@ function Footer() {
             <div className="col-md-15 col-sm-20 footer-bottom">
                 <div>
                     <div className="payment-logo"></div>                    <div>
+                    <div className="footer_icons flex">
+						<a href={footerImg}className="footer_ic footer_ic-tw">https://twitter.com/i/flow/login?redirect_after_login=%2Ffaberlicrussia</a>
+						<a href={footerImg1} className="footer_ic footer_ic-fb"> https://www.facebook.com/Faberlickyrgyzstanofficial/</a>
+						<a href={footerImg2}className="footer_ic footer_ic footer_ic-inst">https://www.instagram.com/faberlic.kyrgyzstan.official</a>
+						<a href={footerImg3} className="footer_ic footer_ic-git"></a>
+					</div>
                         		
 	
                         <div className="footerCopyright">Copyright © 2024 АО «Фаберлик»</div>

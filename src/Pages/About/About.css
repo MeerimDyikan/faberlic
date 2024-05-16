@@ -1,1 +1,40 @@
+.h-about {
+    padding-right: var(--h-common-padding);
+    padding-top: 9.16667em;
+    padding-bottom: 9.16667em;
+    min-height: 49.5em;
+    display: flex;
+    top: calc(var(--header-height) / 2);
+    position: relative;
+}
 
+.h-text-70-42-30 {
+    color: #2c2f24;
+	font-family: 'Playfair Display', arial, sans-serif;
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 61px;
+	
+}
+.h-image-default{
+    max-width: 400px;
+    margin-bottom: 15px;
+	border-radius: 12px;
+	overflow: hidden;
+	position: relative;
+    margin-right: 30px;
+}
+.h-about__content{
+    max-width: 400px;
+}
+.h-text-w-700{
+    min-width: 700px;
+}
+.h-facts__image{
+    max-width: 500px;
+}
+h-list-default {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
