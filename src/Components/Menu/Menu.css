@@ -4,8 +4,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #ffffff; /* Цвет фона */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+    background-color: #ffffff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .navigation ul {
     list-style: none;
@@ -15,12 +15,16 @@
 
 .navigation ul li {
     display: inline-block;
-    margin-right: 20px; /* Расстояние между пунктами меню */
+    margin-right: 60px; 
+
+}
+.menu {
+    margin-left: 30px;
 }
 
 .navigation ul li a {
     text-decoration: none;
-    color: #333333; /* Цвет текста */
+    color: #333333; 
     font-weight: bold;
     padding-left: 30px;
 }

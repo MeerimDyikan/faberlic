@@ -45,12 +45,14 @@ li {
 }
 .footerContent .menu_menufooter {
     padding: 0 15px;
+    margin-left: 50px;
 }
 .footerContent .footer-spec-list.menu-icon {
     margin-top: 35px;
 }
 .footer_icons {
 	justify-content: flex-start;
+    margin-bottom: 30px;
 
 }
 
@@ -70,8 +72,9 @@ li {
 	background-image: url(../../images/3.svg);
 }
 
-.footer_ic-git {
-	background-image: url(../../images/4.svg);
+.footer_ic-tel {
+	background-image: url(../../images/telegram-logo-thin-svgrepo-com.svg);
+    background-color: maroon;
 }
 
 
