@@ -1,21 +1,27 @@
-.info_f {
-	color: #2c2f24;
-	font-family: 'Playfair Display', arial, sans-serif;
-	font-size: 30px;
-	font-weight: 400;
-	padding: 30px;
-	text-align: center;
-	
-}
-.info_p {
-	color:black;
-	font-family: 'Playfair Display', arial, sans-serif;
-	font-size: 20px;
-	font-weight: 200;
-	
 
-	
+.company-details {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
 }
-.page-header {
-	background-color:grey;
-	border-radius: 30px;}
+
+.company-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.company-details .details {
+    font-size: 16px;
+}
+
+.company-details .details p {
+    margin-bottom: 10px;
+}
+
+.company-details .details p strong {
+    display: inline-block;
+    width: 200px;
+}
