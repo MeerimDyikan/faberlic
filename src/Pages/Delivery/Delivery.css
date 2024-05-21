@@ -1,0 +1,36 @@
+.delivery-menu {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.delivery-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.delivery-menu ul li {
+    padding: 14px 20px;
+}
+
+.delivery-menu ul li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.delivery-menu ul li a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}

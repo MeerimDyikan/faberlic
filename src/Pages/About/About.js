@@ -30,23 +30,26 @@ function About() {
             </section>
             <div className="video "><iframe width="853" height="480" src="https://www.youtube.com/embed/cY_tQvczCsM" title="История компании #Фаберлик с основания до 2019 года!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
+            <div className=" h-history_cards flex">
+             
+              
             
-            <ul className="h-list-default h-history__cards flex">
-<li className="h-history__card flex" data-shooter-target="1">
+              <div className="h-history__card " data-shooter-target="1">
 <div className="h-history__card__picture">
 <div className="h-history__card__image-box">
 <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/01.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/01.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/01.webp"/>
 </div>
 </div>
-<div className="h-history__card__content flex">
+<div className="h-history__card__content ">
 <div className="h-text-100-70-40 h-text-w-900 h-history__card__year">2020</div>
 <div className="h-text-18-14-14 h-history__card__desc">
 Faberlic меняет позиционирование бренда – FABERLIC. ВДОХНОВЛЯЕШЬ НА ЛУЧШЕЕ / FABERLIC. BE YOUR BEST. Компания каждый день стремится открывать новые возможности для вдохновений, создавая уникальные инновационные продукты, разнообразные образовательные проекты и социальные инициативы.<br/>&nbsp;<br/>
 В этом же году состоялся долгожданный запуск продаж пятого поколения кислородной косметики – Global Oxygen, инновационной разработки лаборатории Faberlic с максимальной концентрацией кислородного комплекса.
 </div>
 </div>
-</li>
-<li className="h-history__card flex " data-shooter-target="2">
+</div>
+
+<div className="h-history__card  " data-shooter-target="2">
 <div className="h-history__card__picture">
 <div className="h-history__card__image-box">
 <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/02.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/02.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/02.webp"/>
@@ -58,8 +61,8 @@ Faberlic меняет позиционирование бренда – FABERLIC
 Faberlic совершает настоящий прорыв в моде и создаёт глобальный прецедент: впервые в истории марка косметики с многомиллионной аудиторией запускает собственный бренд couture. Премьерный показ первой коллекции Faberlic Couture сезона осень-зима – 2019/20 состоялся на главном подиуме Недели моды в Москве в Гостином дворе. По мотивам кутюрной коллекции создана премиальная линия Faberlic Premier, которая появится в продаже осенью 2019 года.
 </div>
 </div>
-</li>
-<li className="h-history__card flex" data-shooter-target="3">
+</div>
+<div className="h-history__card " data-shooter-target="3">
 <div className="h-history__card__picture">
 <div className="h-history__card__image-box">
 <img class="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/03.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/03.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/03.webp"/>
@@ -72,8 +75,8 @@ Faberlic совершает настоящий прорыв в моде и со�
 В этом же году поклонники кислородной косметики Faberlic покорены новой инновационной разработкой – трёхступенчатой программой омоложения Expert Skin Activator, направленной на работу в глубоких слоях эпидермиса. Каскадное увлажнение достигается благодаря комбинации гиалуроновых кислот разного молекулярного веса.
 </div>
 </div>
-</li>
-<li className="h-history__card flex" data-shooter-target="4">
+</div>
+<div className="h-history__card " data-shooter-target="4">
 <div className="h-history__card__picture">
 <div className="h-history__card__image-box">
 <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/04.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/04.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/04.webp"/>
@@ -86,8 +89,8 @@ Faberlic совершает настоящий прорыв в моде и со�
 В конце весны - начале лета 2017 года компания открыла собственное швейное производство в Ивановской области. Теперь пошив одежды, белья и чулочно-носочной продукции осуществляется в России.
 </div>
 </div>
-</li>
-<li className="h-history__card flex" data-shooter-target="5">
+</div>
+<div className="h-history__card " data-shooter-target="5">
 <div className="h-history__card__picture">
 <div className="h-history__card__image-box">
 <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/05_alt.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/05_alt.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/05_alt.webp"/>
@@ -100,8 +103,8 @@ Faberlic совершает настоящий прорыв в моде и со�
 В 2016 году произошло объединение Faberlic с премиальным брендом Florange – лидером на рынке прямых продаж женского и мужского нижнего белья и дизайнерских аксессуаров, а также брендом «ДЭНАС МС» – производителем уникальных медицинских аппаратов.
 </div>
 </div>
-</li>
-<li className="h-history__card flex" data-shooter-target="6">
+</div>
+<div className="h-history__card " data-shooter-target="6">
 <div className="h-history__card__picture">
 <div className="h-history__card__image-box">
 <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/06.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/06.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/06.webp"/>
@@ -113,8 +116,8 @@ Faberlic совершает настоящий прорыв в моде и со�
 Выходит в свет новое поколение кислородной косметики – Air Stream, революционная разработка лаборатории Faberlic. В основе комплекса – турмерон и куркумин, которые впервые удалось ввести в состав косметики вместе, целиком сохранив при этом пользу ингредиентов. Специалисты также обогатили формулу фирменным веществом Novaftem O2, что сделало её ещё более эффективной. В этом же году в каталоге Faberlic появляется первая коллекция женской одежды. Привлекательные цены, качество пошива и активное продвижение приводят к росту выручки на 50% и уникальному случаю в истории маркетинга: продажи идут со скоростью одно платье в секунду!
 </div>
 </div>
-</li>
-<li className="h-history__card flex" data-shooter-target="7">
+</div>
+<div className="h-history__card " data-shooter-target="7">
 <div className="h-history__card__picture">
 <div className="h-history__card__image-box">
 <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/07.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/07.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/07.webp"/>
@@ -126,8 +129,8 @@ Faberlic совершает настоящий прорыв в моде и со�
 Faberlic выходит на модный рынок, запуская производство и продажу детской одежды. Дизайнером коллекций становится итальянский модельер Джермана Тровато, на счету у которой работа с такими брендами, как Ralph Lauren, Max Mara, Kiko и др. В моде Faberlic продолжает ту же стратегию, что и в парфюмерно-косметическом секторе: делать высокое качество доступным, применять инновационные технологии и проводить собственные разработки, сохраняя при этом политику низких цен.
 </div>
 </div>
-</li>
-<li class="h-history__card injured flex" data-shooter-target="8">
+</div>
+<div class="h-history__card injured" data-shooter-target="8">
 <div class="h-history__card__picture">
 <div class="h-history__card__image-box">
 <img class="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/08.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/08.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/08.webp"/>
@@ -139,8 +142,8 @@ Faberlic выходит на модный рынок, запуская прои�
 Прошли под знаком объединения: с этого времени компании Edelstar, Infinum и Sengara работают совместно с Faberlic для красоты и здоровья каждого покупателя. У каждого из брендов накоплен богатый опыт работы с покупателем, созданы разработки, которые в дальнейшем станут основой для новых категорий и продуктовых линеек Faberlic. Каталог становится универсальным – теперь всё самое необходимое для дома, красоты и здоровья можно найти у одного консультанта!
 </div>
 </div>
-</li>
-<li className="h-history__card" data-shooter-target="9">
+</div>
+<div className="h-history__card " data-shooter-target="9">
 <div className="h-history__card__picture">
 <div className="h-history__card__image-box">
 <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/09_alt.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/09_alt.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/09_alt.webp"/>
@@ -153,22 +156,9 @@ Faberlic выходит на модный рынок, запуская прои�
 Реорганизована логистическая модель: рост с 200 до 2 000 точек продаж и доставки. Переход на новую интернет платформу: размещение заказов online.
 </div>
 </div>
-</li>
-<li className="h-history__card" data-shooter-target="10">
-<div className="h-history__card__picture">
-<div className="h-history__card__image-box">
-<img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/10.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/10.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/10.webp"/>
 </div>
-</div>
-<div className="h-history__card__content">
-<div className="h-text-100-70-40 h-text-w-900 h-history__card__year">2003-2005</div>
-<div className="h-text-18-14-14 h-history__card__desc">
-Faberlic становится крупнейшей международной компанией прямых продаж на рынке СНГ и Балтии. Компания активно открывает представительства в 15 странах и занимает 87-е место в рейтинге «Топ-100 крупнейших парфюмерно-косметических компаний мира» (по версии WWD Beauty Report International).
-</div>
-</div>
-</li>
 
-</ul>
+</div>         
     </>
   );
 }

@@ -59,15 +59,35 @@ footer {
 	margin-bottom: 130px
 }
 
-.footer_imgs {
+.h-history_cards {
 
-	max-width: 403px;
+	max-width: 1403px;
+    background-color: #474747;
 
 
 }
+.h-history__card__content{
+    font-size: xx-large;
+    color: black;
+    font-style: normal;
+    text-align: end;
+    
+}
+.h-history__card__content:hover {
+transform: scale(1.1);
+transition: 0.3s;
+}
+
+
+.h-history__card__desc{
+    margin: auto;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
 
 .h-history__card__image-box img{
-	margin-bottom: 15px;
+	margin: auto;
 	border-radius: 12px;
 	overflow: hidden;
 	position: relative;
