@@ -10,7 +10,7 @@ function About() {
 
             <h2>О компании</h2>
             <div className="about-content" >
-              <div className="about flex"> <img src="company-image.jpg" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/02_about/03.png, https://static.faberlic.com/fl_about/assets/images/02_about/03.webp" src="https://static.faberlic.com/fl_about/assets/images/02_about/03.webp" alt="Company Image"/>
+              <div className="about flex"> <img data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/02_about/03.png, https://static.faberlic.com/fl_about/assets/images/02_about/03.webp" src="https://static.faberlic.com/fl_about/assets/images/02_about/03.webp" alt="Company Image"/>
                 <div className="text">                    <p>
                         ООО "Faberlic" основана в 1997 году и является ведущим поставщиком высококачественных продуктов и услуг в своей отрасли. Мы стремимся предоставлять нашим клиентам самые инновационные решения, соответствующие их потребностям и превышающие их ожидания.
                     </p></div></div>
@@ -19,7 +19,7 @@ function About() {
                     <p>
                     Наша миссия - обеспечить высочайшее качество и надежность, опираясь на современные технологии и профессионализм нашей команды. Мы гордимся тем, что сотрудничаем с ведущими мировыми компаниями и предоставляем услуги, которые помогают нашим клиентам добиваться успеха.
                     </p></div>
-                    <div className="about flex"> <img src="company-image.jpg"  data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/02_about/02.svg, https://static.faberlic.com/fl_about/assets/images/02_about/02.svg" src="https://static.faberlic.com/fl_about/assets/images/02_about/02.svg" alt="Company Image"/>
+                    <div className="about flex"> <img data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/02_about/02.svg, https://static.faberlic.com/fl_about/assets/images/02_about/02.svg" src="https://static.faberlic.com/fl_about/assets/images/02_about/02.svg" alt="Company Image"/>
                 <div className="text">
                     <p>
                     Мы ценим доверие наших клиентов и всегда готовы идти навстречу их пожеланиям и требованиям. В ООО "Faberlic" мы убеждены, что успех наших клиентов - это и наш успех.

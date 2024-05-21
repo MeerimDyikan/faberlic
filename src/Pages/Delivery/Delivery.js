@@ -16,6 +16,7 @@ function Delivery() {
     </nav>
     <section id="pizza">
         <h2>УХОД</h2>
+        
     </section>
     <section id="sushi">
         <h2>МАКИЯЖ</h2>

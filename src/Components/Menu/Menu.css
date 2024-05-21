@@ -11,14 +11,17 @@
     list-style: none;
     margin: 0;
     padding: 16px;
+  
 }
 
 
 
 
-.menu li a {
+.menu li a  {
     text-decoration: none;
     color: #333333; 
     font-weight: bold;
- justify-content: space-between;
+    justify-content: space-between;
+    width: calc((100%-60px)/4);
+    margin-right: 10px;
 }

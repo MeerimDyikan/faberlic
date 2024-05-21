@@ -3,9 +3,9 @@
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    
     border-radius: 5px;
-    background: #f9f9f9;
+    background: bisque;
 }
 
 .about h2 {
@@ -36,7 +36,7 @@
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+
     border-radius: 5px;
     background: #f9f9f9;
     text-align: center;
@@ -50,19 +50,18 @@
     position: relative;
     overflow: hidden;
 }
-footer {
-	padding: 120px 0 80px;
-	background: #474747;
+
+.video{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.footer_in {
-	margin-bottom: 130px
-}
 
 .h-history_cards {
 
 	max-width: 1403px;
-    background-color: #474747;
+   background-color: bisque;
 
 
 }
@@ -115,9 +114,7 @@ transition: 0.3s;
 	transition: 0.3s;
 }
 
-.h-history__card__image-box:hover::before {
-	opacity: 0.2;
-}
+
 .h-history__card__desc{
     width: 45%;
     justify-content: left;
