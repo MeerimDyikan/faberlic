@@ -7,21 +7,17 @@
     background-color: #ffffff; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.menu  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 16px;
-  
+
+.Menu li {
+    margin: 0 5px;
 }
 
 
-
-
-.menu li a  {
+.Menu li a  {
     text-decoration: none;
     color: #333333; 
     font-weight: bold;
     justify-content: space-between;
-    width: calc((100%-60px)/4);
+    
     margin-right: 10px;
 }

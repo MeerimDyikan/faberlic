@@ -5,7 +5,7 @@
     padding: 20px;
     
     border-radius: 5px;
-    background: bisque;
+   
 }
 
 .about h2 {
@@ -61,7 +61,7 @@
 .h-history_cards {
 
 	max-width: 1403px;
-   background-color: bisque;
+   
 
 
 }
@@ -101,6 +101,9 @@ transition: 0.3s;
 	transform: scale(1.1);
 }
 
+.h-history__card__image-box {
+    position: relative;
+}
 .h-history__card__image-box::before {
 	content: '';
 	position: absolute;
