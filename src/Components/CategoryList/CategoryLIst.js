@@ -9,7 +9,7 @@ export default function CategoryList() {
   const output = categories.map((category) => (
     <li key={category.id}>
       <NavLink to={"/categories/" + category.slug}>
-        {category.name}
+        {category.name} 
       </NavLink>
 
       <DeleteCategory category={category} />

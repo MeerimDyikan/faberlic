@@ -15,6 +15,7 @@ import {
 } from 'react-router-dom'
 import{createContext,useEffect,useState} from "react";
 import {onAuthChange,onCategoriesLoad,onOrdersLoad,onProductsLoad} from "./firebase";
+import CategoryList from './Components/CategoryList/CategoryLIst';
 export const AppContext = createContext ({
 categories: [],
 products: [],
@@ -51,6 +52,7 @@ function App() {
     <div className='App'>
       <Router>
         <Header />
+        <CategoryList/>
         <main>
           <div className="container">
             <Routes>

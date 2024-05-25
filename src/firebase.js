@@ -26,7 +26,6 @@ const provider = new GoogleAuthProvider();
 export const LogIn = () => signInWithPopup(auth, provider);
 export const LogOut = () => signOut(auth);
 export const onAuthChange = (callback) => onAuthStateChanged(auth, callback);
-
 export const onCategoriesLoad = (callback) =>
   onSnapshot(categoryCollection, (snapshot) =>
     callback(
