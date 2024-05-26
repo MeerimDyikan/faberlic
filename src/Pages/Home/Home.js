@@ -7,7 +7,10 @@ import aboutImg5 from "../../images/Carousel-5-7-2024-ru-en.jpg"
 import aboutImg6 from "../../images/Carousel-6-7-2024-ru-en.jpg"
 import middleImg from "../../images/Middle-1-8-2024.jpg"
 import middleImg1 from "../../images/Middle-2-8-2024.jpg"
-
+import middleVid from "../../video/middvid.mp4"
+import middleVid1 from "../../video/midvid1.mp4"
+import middleVid2 from "../../video/midvid3.mp4"
+import middleVid3 from "../../video/midvid4.mp4"
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -55,8 +58,9 @@ function Home()
         <Link className="middle" to ="https://faberlic.com/index.php?option=com_flippingbook&view=catalog"> Смотреть каталог</Link>
         </div>
         
-        
         </div>
+        
+   
      
      </>
     );

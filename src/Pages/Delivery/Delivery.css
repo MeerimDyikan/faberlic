@@ -1,36 +1,19 @@
-.delivery-menu {
-    background-color: #333;
-    overflow: hidden;
+.delivery{
+    width: 100%;
 }
-
-.delivery-menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.del{
+    width: 50%;
+}
+.page_ovd_wrapper .row {
     display: flex;
-    justify-content: center;
+    flex-wrap: inherit;
+    margin: 0;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
 }
-
-.delivery-menu ul li {
-    padding: 14px 20px;
-}
-
-.delivery-menu ul li a {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-}
-
-.delivery-menu ul li a:hover {
-    background-color: #575757;
-}
-
-section {
-    padding: 20px;
-}
-
-section h2 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+.page_ovd_wrapper .page_ovd_open_wrapper .page_ovd_open_item .page_ovd_info {
+    position: relative;
+    padding: 30px 0 15px;
+    clear: both;
 }
