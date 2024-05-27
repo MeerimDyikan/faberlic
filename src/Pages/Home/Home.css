@@ -51,6 +51,7 @@ body, html {
     text-align: center;
     height: auto;
     margin: 20px;
+    width: 40%;
     
 }
 .middle{
@@ -60,4 +61,6 @@ body, html {
 .mid{
   margin-bottom: 20px;
 }
-
+.container_mid{
+  width: 100%;
+}

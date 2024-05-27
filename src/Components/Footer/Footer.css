@@ -62,19 +62,37 @@ li {
 	height: 35px;
 	border-radius: 50%;
 	background:white url(../../images/1\ \(1\).svg) center no-repeat;
+    background-color: grey;
 }
 
 .footer_ic-fb {
-	background-image: url(../../images/2.svg)
+	background-image: url(../../images/2.svg);
+    background-color: grey;
 }
 
 .footer_ic-inst {
 	background-image: url(../../images/3.svg);
+    background-color: grey;
 }
 
 .footer_ic-tel {
 	background-image: url(../../images/telegram-logo-thin-svgrepo-com.svg);
-    background-color: #AD343E;
+    background-color: grey;
+}
+.company_footer{
+    width: 50%;
+}
+.footer_icons{
+    margin-left: 50%;
+}
+.footerCopyright{
+    margin-left: 50%;
+}
+.footer_tit{
+    
+    color:grey;
+    margin-bottom: 20px;
+     margin-left:20%  ;
 }
 
 

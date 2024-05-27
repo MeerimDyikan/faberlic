@@ -33,6 +33,8 @@ function Delivery() {
 <p className="page_ovd_menu-items-name">Пункты выдачи</p>
 </div>
 </div>
+
+	
         </>
     );
 }

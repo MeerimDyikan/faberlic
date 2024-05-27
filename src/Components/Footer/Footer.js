@@ -10,31 +10,43 @@ function Footer() {
   return (
     <>
       <footer className="footer">
-    <div className="container">
-        <div className="row footerContent  flex ">
-            <div className="col-md-30 col-sm-40">
-                		<div className="moduletable_menufooter "> 
-					<ul className="menu_menufooter ">
-          <h3>КОМПАНИЯ</h3>
-            <li>О Faberlic</li>
-            <li>Корпоративные ценности</li> 
-            <li>Центр научных разработок</li>
-             <li>Собственное производство</li>
-             <li>Новости</li>
-              <li>Новинки каталога</li> 
-              <li>Контакты</li>
-              <Link className="Catalogue" to ="https://faberlic.com/index.php?option=com_flippingbook&view=catalog"> </Link>
-               </ul>
-	
-            </div>  </div>
-            <div className="col-md-15 col-sm-20">
-                		<div className="moduletable">
-					
-<ul className="footer-spec-list menu-icon">
-    <li><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=379&amp;Itemid=2678"><i className="footer-icon partnership"></i>Партнерство</a></li><li><a href="index.php?option=com_geography&amp;view=geography"><i class="footer-icon point-delivery"></i>Пункты выдачи</a></li><li><a href="index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=1086&amp;Itemid=5342"><i className="footer-icon mobile-app"></i>Обучение</a></li><li><a href="index.php?option=com_flippingbook&amp;view=catalog&amp;Itemid=2071"><i className="footer-icon business-news"></i>Листать каталог</a></li></ul>		</div>
-	
+    <div className="container flex">
+       <div className="company_footer flex">
+        <nav> <h3 class="footer_tit">КОМПАНИЯ
+</h3>
+        <ul class="footer_li">
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=13&Itemid=5306">О Faberlic</Link></li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=1075&Itemid=5307">Корпоративные ценности</Link></li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=11&Itemid=5308">Центр научных разработок</Link></li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=10&Itemid=5309">Собственное производство</Link></li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=10&Itemid=5309">
+         Новости</Link></li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&layout=newsfeed&view=service&category=novelty">Новинки каталога
+         </Link></li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=65&Itemid=5313">
+         Контакты</Link></li>
+
+        </ul></nav>
+        <nav> <h3 class="footer_tit">СЕРВИС
+
+
+
+
+</h3>
+        <ul footer_li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=13&Itemid=5306">Как оформить заказ</Link></li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=1075&Itemid=5307">Оплата</Link></li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=11&Itemid=5308">Доставка</Link></li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=10&Itemid=5309">Возврат</Link></li>
+         <li><Link to="https://faberlic.com/index.php?option=com_content&view=category&layout=blog&id=10&Itemid=5309">
+        
+Регистрация</Link></li>
+        
+        </ul></nav>
+       
+       </div>
             </div>
-            <div className="col-md-15 col-sm-20 footer-bottom">
+            <div className="col-md-15  footer-bottom">
                 <div>
                     <div className="payment-logo"></div>                    <div>
                     <div className="footer_icons flex">
@@ -51,9 +63,12 @@ function Footer() {
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+       
+    
 </footer>
+	
+                  		
+	
     </>
   );
 }
