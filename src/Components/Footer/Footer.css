@@ -18,16 +18,18 @@
 .footerContent a {
     line-height: 26px;
 }
-footerContent .footer-spec-list>li {
+ .footer-spec-list>li {
     padding: 8px 0;
     border-bottom: 1px solid #e0e0e0;
     text-transform: uppercase;
     max-width: 200px;
     font-size: 11px;
+   
 }
 user agent stylesheet
 li {
     text-align: -webkit-match-parent;
+    text-decoration: none;
 }
 .footerContent ul {
     list-style: none;

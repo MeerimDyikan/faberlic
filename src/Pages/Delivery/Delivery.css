@@ -1,5 +1,6 @@
 .delivery{
     width: 100%;
+   
 }
 .del{
     width: 50%;
@@ -16,4 +17,9 @@
     position: relative;
     padding: 30px 0 15px;
     clear: both;
+}
+.delivery_ic{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
 }

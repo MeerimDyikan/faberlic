@@ -1,5 +1,5 @@
 import './Delivery.css';
-
+import deliveryImg from "../../images/3741751-bussiness-dellivery-ecommerce-marketplace-onlinestore-store_108906.svg"
 function Delivery() {
     return (
         <>
@@ -10,29 +10,19 @@ function Delivery() {
             <p className="del_p">При получении проверьте, пожалуйста, соответствие позиций заказа Вашей накладной, количество товаров и комплектность (в случае, если продукция продается наборами или комплектами)</p></div>
            
           </div>
-          <div className="cond">СПОСОБЫ И УСЛОВИЯ ДОСТАВКИ</div>
-
-          <div class="row page_ovd_menu">
-<div className="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver1" data-title="Стоимость доставки">
-<p className="page_ovd_menu-items-name">Стоимость доставки</p>
+          
+          <div className="delivery_icon flex"><img src={deliveryImg} alt="" class="delivery_ic"/>
+         
 </div>
-
-<div className="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1 current" data-nummenu="m1" data-show="ver2" data-title="Сроки доставки">
-<p className="page_ovd_menu-items-name">Сроки доставки</p>
-</div>
-
-<div className="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver3" data-title="Как отследить заказ">
-<p className="page_ovd_menu-items-name">Как отследить заказ</p>
-</div>
-
-<div className="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver4" data-title="Срок хранения заказа">
-<p class="page_ovd_menu-items-name">Срок хранения заказа</p>
-</div>
-
- <div className="col-lg-15 col-md-15 col-sm-15 col-xs-30 noPadding page_ovd_menu-items m1" data-nummenu="m1" data-show="ver5" data-title="Пункты выдачи">
-<p className="page_ovd_menu-items-name">Пункты выдачи</p>
-</div>
-</div>
+<select class="form-select" aria-label="Default select example">
+  <option selected>СПОСОБЫ И УСЛОВИЯ ДОСТАВКИ</option>
+  <option value="1">Сроки доставки: <p>Ожидайте SMS-сообщение с информацией о доставке
+Для получения оповещений по SMS и email поставьте соответствующие галочки .</p></option>
+  <option value="1">Стоимость доставки:Стоимость доставки в пункт выдачи Faberlic зависит от отдаленности вашего региона и может составить от 2% до 4% от суммы заказа</option>
+ 
+</select>
+          
+          
 
 	
         </>
