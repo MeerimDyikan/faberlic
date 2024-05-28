@@ -9,10 +9,6 @@ import middleImg from "../../images/Middle-1-8-2024.jpg"
 import middleImg1 from "../../images/Middle-2-8-2024.jpg"
 import bonusImg from "../../images/bonus.jpg"
 import bonusImg1 from "../../images/ideo1.jpg"
-import middleVid from "../../video/middvid.mp4"
-import middleVid1 from "../../video/midvid1.mp4"
-import middleVid2 from "../../video/midvid3.mp4"
-import middleVid3 from "../../video/midvid4.mp4"
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';

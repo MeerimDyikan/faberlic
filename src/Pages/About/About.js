@@ -14,12 +14,12 @@ function About() {
             <div className="text">                    <p>
               ООО "Faberlic" основана в 1997 году и является ведущим поставщиком высококачественных продуктов и услуг в своей отрасли. Мы стремимся предоставлять нашим клиентам самые инновационные решения, соответствующие их потребностям и превышающие их ожидания.
             </p></div></div>
-          <div className="about flex"> <img src={aboutImg} alt="Company Image" />
+          <div className="about flex"> <img src={aboutImg} alt="" />
 
             <p>
               Наша миссия - обеспечить высочайшее качество и надежность, опираясь на современные технологии и профессионализм нашей команды. Мы гордимся тем, что сотрудничаем с ведущими мировыми компаниями и предоставляем услуги, которые помогают нашим клиентам добиваться успеха.
             </p></div>
-          <div className="about flex"> <img data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/02_about/02.svg, https://static.faberlic.com/fl_about/assets/images/02_about/02.svg" src="https://static.faberlic.com/fl_about/assets/images/02_about/02.svg" alt="Company Image" />
+          <div className="about flex"> <img data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/02_about/02.svg, https://static.faberlic.com/fl_about/assets/images/02_about/02.svg" src="https://static.faberlic.com/fl_about/assets/images/02_about/02.svg" alt="" />
             <div className="text">
               <p>
                 Мы ценим доверие наших клиентов и всегда готовы идти навстречу их пожеланиям и требованиям. В ООО "Faberlic" мы убеждены, что успех наших клиентов - это и наш успех.
@@ -37,7 +37,7 @@ function About() {
         <div className="h-history__card " data-shooter-target="1">
           <div className="h-history__card__picture">
             <div className="h-history__card__image-box">
-              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/01.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/01.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/01.webp" />
+              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/01.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/01.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/01.webp" alt='' />
             </div>
           </div>
           <div className="h-history__card__content ">
@@ -52,7 +52,7 @@ function About() {
         <div className="h-history__card  " data-shooter-target="2">
           <div className="h-history__card__picture">
             <div className="h-history__card__image-box">
-              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/02.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/02.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/02.webp" />
+              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/02.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/02.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/02.webp" alt=''/>
             </div>
           </div>
           <div className="h-history__card__content">
@@ -65,7 +65,7 @@ function About() {
         <div className="h-history__card " data-shooter-target="3">
           <div className="h-history__card__picture">
             <div className="h-history__card__image-box">
-              <img class="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/03.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/03.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/03.webp" />
+              <img class="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/03.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/03.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/03.webp" alt='' />
             </div>
           </div>
           <div className="h-history__card__content">
@@ -79,7 +79,7 @@ function About() {
         <div className="h-history__card " data-shooter-target="4">
           <div className="h-history__card__picture">
             <div className="h-history__card__image-box">
-              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/04.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/04.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/04.webp" />
+              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/04.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/04.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/04.webp" alt='' />
             </div>
           </div>
           <div className="h-history__card__content">
@@ -93,7 +93,7 @@ function About() {
         <div className="h-history__card " data-shooter-target="5">
           <div className="h-history__card__picture">
             <div className="h-history__card__image-box">
-              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/05_alt.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/05_alt.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/05_alt.webp" />
+              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/05_alt.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/05_alt.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/05_alt.webp" alt='' />
             </div>
           </div>
           <div className="h-history__card__content">
@@ -107,7 +107,7 @@ function About() {
         <div className="h-history__card " data-shooter-target="6">
           <div className="h-history__card__picture">
             <div className="h-history__card__image-box">
-              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/06.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/06.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/06.webp" />
+              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/06.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/06.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/06.webp" alt='' />
             </div>
           </div>
           <div className="h-history__card__content">
@@ -120,7 +120,7 @@ function About() {
         <div className="h-history__card " data-shooter-target="7">
           <div className="h-history__card__picture">
             <div className="h-history__card__image-box">
-              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/07.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/07.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/07.webp" />
+              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/07.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/07.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/07.webp"  alt=''/>
             </div>
           </div>
           <div className="h-history__card__content">
@@ -133,7 +133,7 @@ function About() {
         <div class="h-history__card injured" data-shooter-target="8">
           <div class="h-history__card__picture">
             <div class="h-history__card__image-box">
-              <img class="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/08.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/08.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/08.webp" />
+              <img class="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/08.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/08.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/08.webp" alt='' />
             </div>
           </div>
           <div className="h-history__card__content">
@@ -146,7 +146,7 @@ function About() {
         <div className="h-history__card " data-shooter-target="9">
           <div className="h-history__card__picture">
             <div className="h-history__card__image-box">
-              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/09_alt.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/09_alt.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/09_alt.webp" />
+              <img className="h-image-default h-history__card__image" data-st-lazy="min-width: 0px => https://static.faberlic.com/fl_about/assets/images/04_history/09_alt.jpg, https://static.faberlic.com/fl_about/assets/images/04_history/09_alt.webp" src="https://static.faberlic.com/fl_about/assets/images/04_history/09_alt.webp" alt='' />
             </div>
           </div>
           <div className="h-history__card__content">
