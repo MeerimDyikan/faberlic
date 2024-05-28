@@ -8,6 +8,7 @@ import Order from './Pages/Order/Order';
 import Delivery from './Pages/Delivery/Delivery';
 import Cart from './Pages/Cart/Cart';
 import NotFound from './Pages/NotFound/NotFound';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -50,6 +51,7 @@ function App() {
   } ,[]);
   return (
     <div className='App'>
+      <AppContext.Provider value={{ categories, cart, user, orders }} >
       <Router>
         <Header />
         <CategoryList/>
@@ -63,11 +65,13 @@ function App() {
               <Route path="delivery" element={<Delivery />} />
               <Route path="cart" element={<Cart />} />
               <Route path="*" element={<NotFound />} />
+              
             </Routes>
           </div>
         </main>
         <Footer />
       </Router>
+      </AppContext.Provider>
     </div>
   );
 }
