@@ -7,6 +7,8 @@ import aboutImg5 from "../../images/Carousel-5-7-2024-ru-en.jpg"
 import aboutImg6 from "../../images/Carousel-6-7-2024-ru-en.jpg"
 import middleImg from "../../images/Middle-1-8-2024.jpg"
 import middleImg1 from "../../images/Middle-2-8-2024.jpg"
+import bonusImg from "../../images/bonus.jpg"
+import bonusImg1 from "../../images/ideo1.jpg"
 import middleVid from "../../video/middvid.mp4"
 import middleVid1 from "../../video/midvid1.mp4"
 import middleVid2 from "../../video/midvid3.mp4"
@@ -59,6 +61,13 @@ function Home()
         </div>
         
         </div>
+        <div className="card" >
+  <img src={bonusImg }class="card-img-top" alt="..."/>
+  <div className="card-body">
+    <p className="card-text">Любой дезодорант-спрей iDeo со скидкой 50% всего за 205 KGS при покупке по каталогу за каждые 525 KGS в заказе!</p>
+  </div>
+</div>
+<img src={bonusImg1} class="rounded-circle" alt="..."/>
         
    
      

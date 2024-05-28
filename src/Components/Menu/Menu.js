@@ -18,7 +18,7 @@ function Menu() {
           <Link to="/contacts">Контакты</Link>
         </li>
         <li>
-          <Link to="/cart">Каталог</Link>
+          <Link to="/beginner">Новым Консультантом</Link>
         </li>
       </ul>
     </nav>

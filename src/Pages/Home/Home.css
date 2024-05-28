@@ -64,3 +64,6 @@ body, html {
 .container_mid{
   width: 100%;
 }
+.card{
+  width: 18 rem;
+} 
