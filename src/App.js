@@ -29,7 +29,7 @@ user:null,
 function App() {
 
   const [categories, setCategories] =useState ([]);
-  const [products , setProducts] = useState ([]);
+  const [products, setProducts] = useState ([]);
   const [orders ,setOrders] = useState ([]);
   const[cart,setCart ] = useState (() =>{
     return JSON.parse(localStorage.getItem("cart")) || {};
