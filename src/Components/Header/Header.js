@@ -8,10 +8,12 @@ import Icons from '../Icons/Icons';
 function Header() {
   return (
     <header className="header">
+     
     <Logo/>
    <Menu/>
    <Icons/>
    <Button/>
+    
   
 </header>
 

@@ -48,7 +48,7 @@ function App() {
     }
     setUser(user);
    } )
-  } ,[]);
+   },[setProducts]);
   return (
     <div className='App'>
       <AppContext.Provider value={{ categories, cart, user, orders }} >

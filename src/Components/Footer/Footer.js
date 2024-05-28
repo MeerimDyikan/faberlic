@@ -4,12 +4,14 @@ import footerImg1 from "../../images/2.svg"
 import footerImg2 from "../../images/3.svg"
 import footerImg3 from "../../images/telegram-logo-thin-svgrepo-com.svg"
 import { Link } from 'react-router-dom';
-
+import  Logo from "../Logo/Logo"
 
 function Footer() {
   return (
     <>
+    
       <footer className="footer">
+     
     <div className="container flex">
        <div className="company_footer flex">
         <nav> <h3 class="footer_tit">КОМПАНИЯ
@@ -48,7 +50,7 @@ function Footer() {
             </div>
             <div className="col-md-15  footer-bottom">
                 <div>
-                    <div className="payment-logo"></div>                    <div>
+                    <div className="payment-logo">  </div>                    <div>
                     <div className="footer_icons flex">
 					
             <Link className="footer_ic footer_ic-tw" to ="https://twitter.com/i/flow/login?redirect_after_login=%2Ffaberlicrussia"><img src={footerImg} alt="" /></Link>
@@ -57,7 +59,7 @@ function Footer() {
             <Link className="footer_ic footer_ic-tel" to ="https://t.me/official_faberlic"><img src={footerImg3} alt="" /></Link>
             </div>
 					
-                        		
+                 		
 	
                         <div className="footerCopyright">Copyright © 2024 АО «Фаберлик»</div>
                     </div>
