@@ -30,6 +30,7 @@ user agent stylesheet
 li {
     text-align: -webkit-match-parent;
     text-decoration: none;
+    color: beige;
 }
 .footerContent ul {
     list-style: none;

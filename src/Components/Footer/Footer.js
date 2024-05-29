@@ -4,7 +4,6 @@ import footerImg1 from "../../images/2.svg"
 import footerImg2 from "../../images/3.svg"
 import footerImg3 from "../../images/telegram-logo-thin-svgrepo-com.svg"
 import { Link } from 'react-router-dom';
-import  Logo from "../Logo/Logo"
 
 function Footer() {
   return (

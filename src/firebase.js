@@ -4,14 +4,13 @@ import { GoogleAuthProvider, getAuth, onAuthStateChanged, signInWithPopup, signO
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBHr9EbbAcTZXwZE1L45rBISXY2dgpvdlU",
-    authDomain: "faberlic-93284.firebaseapp.com",
-    projectId: "faberlic-93284",
-    storageBucket: "faberlic-93284.appspot.com",
-    messagingSenderId: "1053758160229",
-    appId: "1:1053758160229:web:cd6ad049d52ade4304758c",
-    measurementId: "G-VMLVVXPHDM"
-  };
+  apiKey: "AIzaSyBHr9EbbAcTZXwZE1L45rBISXY2dgpvdlU",
+  authDomain: "faberlic-93284.firebaseapp.com",
+  projectId: "faberlic-93284",
+  storageBucket: "faberlic-93284.appspot.com",
+  messagingSenderId: "1053758160229",
+  appId: "1:1053758160229:web:cd6ad049d52ade4304758c",
+};
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
@@ -26,6 +25,7 @@ const provider = new GoogleAuthProvider();
 export const LogIn = () => signInWithPopup(auth, provider);
 export const LogOut = () => signOut(auth);
 export const onAuthChange = (callback) => onAuthStateChanged(auth, callback);
+
 export const onCategoriesLoad = (callback) =>
   onSnapshot(categoryCollection, (snapshot) =>
     callback(
@@ -63,4 +63,4 @@ export const uploadProductPhoto = (file) => {
     .catch((error) => {
       console.log("Failed to upload product photo:", error);
     });
-}
+};
