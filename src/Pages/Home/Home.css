@@ -65,27 +65,20 @@ body, html {
   width: 100%;
 }
 .card{
-  width: 18 rem;
+  width: 18rem;
 } 
 .image_container {
   position: relative;
   display: inline-block;
 }
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #f0f0f0;
-}
+
 .image_container img {
   display: block;
 }
 
 .centered_text {
   position: absolute;
-  top: 210%;
+  top: 150%;
   left: 50%;
   transform: translate(-50%, -50%);
   color:pink; /* Цвет текста */

@@ -55,7 +55,7 @@ export const onOrdersLoad = (callback) =>
   );
 
 export const uploadProductPhoto = (file) => {
-  const storageRef = ref(storage, `products/${file.name}`);
+  const storageRef = ref(storage, `products/${ file.name }`);
   return uploadBytes(storageRef, file)
     .then(() => {
       return getDownloadURL(storageRef);
