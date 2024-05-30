@@ -67,3 +67,31 @@ body, html {
 .card{
   width: 18 rem;
 } 
+.image_container {
+  position: relative;
+  display: inline-block;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.image_container img {
+  display: block;
+}
+
+.centered_text {
+  position: absolute;
+  top: 210%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:pink; /* Цвет текста */
+  font-size:16px; /* Размер текста */
+  font-family: Arial, sans-serif; /* Шрифт */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень текста для лучшей читабельности */
+  width: 540px;
+  text-align: center;
+}

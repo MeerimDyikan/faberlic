@@ -7,7 +7,7 @@ import aboutImg5 from "../../images/Carousel-5-7-2024-ru-en.jpg"
 import aboutImg6 from "../../images/Carousel-6-7-2024-ru-en.jpg"
 import middleImg from "../../images/Middle-1-8-2024.jpg"
 import middleImg1 from "../../images/Middle-2-8-2024.jpg"
-import bonusImg from "../../images/bonus.jpg"
+
 import bonusImg1 from "../../images/ideo1.jpg"
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -57,13 +57,10 @@ function Home()
         </div>
         
         </div>
-        <div className="card" >
-  <img src={bonusImg }class="card-img-top" alt="..."/>
-  <div className="card-body">
-    <p className="card-text">Любой дезодорант-спрей iDeo со скидкой 50% всего за 205 KGS при покупке по каталогу за каждые 525 KGS в заказе!</p>
-  </div>
-</div>
-<img src={bonusImg1} class="rounded-circle" alt="..."/>
+      
+ <div className="body"></div>
+<div className="image_container"><img src={bonusImg1} alt="Image" /></div>
+<div className="centered_text">Любой дезодорант-спрей iDeo со скидкой 50% всего за 205 KGS при покупке по каталогу за каждые 525 KGS в заказе!</div>
         
    
      

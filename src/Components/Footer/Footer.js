@@ -4,15 +4,19 @@ import footerImg1 from "../../images/2.svg"
 import footerImg2 from "../../images/3.svg"
 import footerImg3 from "../../images/telegram-logo-thin-svgrepo-com.svg"
 import { Link } from 'react-router-dom';
+import Logo  from '../Logo/Logo';
 
 function Footer() {
   return (
     <>
     
       <footer className="footer">
-     
+    
     <div className="container flex">
+    <Logo/>
+    
        <div className="company_footer flex">
+      
         <nav> <h3 class="footer_tit">КОМПАНИЯ
 </h3>
         <ul class="footer_li">
@@ -58,14 +62,12 @@ function Footer() {
             <Link className="footer_ic footer_ic-tel" to ="https://t.me/official_faberlic"><img src={footerImg3} alt="" /></Link>
             </div>
 					
-                 		
 	
                         <div className="footerCopyright">Copyright © 2024 АО «Фаберлик»</div>
                     </div>
                 </div>
             </div>
-       
-    
+            
 </footer>
 	
                   		
