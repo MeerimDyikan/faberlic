@@ -2,7 +2,7 @@ import { useContext } from "react";
 import "./ProductList.css";
 import { AppContext } from "../../App";
 import { Link } from "react-router-dom";
-import { AddToCart } from "../AddToCart/AddToCart";
+// import { AddToCart } from "../AddToCart/AddToCart";
 import AddProduct from "../AddProduct/AddProduct";
 import DeleteProduct from "../DeleteProduct/DeleteProduct";
 
@@ -25,7 +25,7 @@ export default function ProductList({ category }) {
         <div className="actions">
 
           <span>${product.price}</span>
-          <AddToCart product={product} />
+          {/* <AddToCart product={product} /> */}
         </div>
         <DeleteProduct product={product} />
       </div>
