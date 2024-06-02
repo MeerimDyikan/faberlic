@@ -52,12 +52,13 @@ function App() {
 
   return (
     <div className='App'>
-  <ProductList/>
+  
       <AppContext.Provider value={{ categories, cart, user, orders }} >
 
         <Router>
           <Header />
           <CategoryList />
+          <ProductList/>
         
           <main>
             <div className="container">
