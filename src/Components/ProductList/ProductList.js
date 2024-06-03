@@ -23,9 +23,8 @@ export default function ProductList({ category }) {
         <br />
 
         <div className="actions">
-
           <span>${product.price}</span>
-          {/* <AddToCart product={product} /> */}
+     
         </div>
         <DeleteProduct product={product} />
       </div>

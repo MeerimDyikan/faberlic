@@ -1,85 +1,164 @@
-import './App.css';
-import Footer from './Components/Footer/Footer';
-import CategoryList from './Components/CategoryList/CategoryList';
-import Header from './Components/Header/Header';
-import About from './Pages/About/About';
-import Home from './Pages/Home/Home';
-import Contacts from './Pages/Contacts/Contacts';
-import Order from './Pages/Order/Order';
-import Delivery from './Pages/Delivery/Delivery';
-import Cart from './Pages/Cart/Cart';
-import NotFound from './Pages/NotFound/NotFound';
-import ProductList from "./Components/ProductList/ProductList";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from 'react-router-dom'
-import { createContext, useEffect,useState } from 'react';
-import { onAuthChange,onCategoriesLoad,onOrdersLoad,onProductsLoad } from './firebase';
+// import './App.css';
+// import Footer from './Components/Footer/Footer';
+
+// import Header from './Components/Header/Header';
+// import About from './Pages/About/About';
+// import Home from './Pages/Home/Home';
+// import Contacts from './Pages/Contacts/Contacts';
+// import Order from './Pages/Order/Order';
+// import Delivery from './Pages/Delivery/Delivery';
+// import Cart from './Pages/Cart/Cart';
+// import NotFound from './Pages/NotFound/NotFound';
+// import ProductList from "./Components/ProductList/ProductList";
+// import CategoryList from './Components/CategoryList/CategoryList';
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from 'react-router-dom'
+// import { createContext, useEffect,useState } from 'react';
+// import { onAuthChange,onCategoriesLoad,onOrdersLoad,onProductsLoad } from './firebase';
+// export const AppContext = createContext({
+//   categories:[],
+//   products:[],
+//   orders:[],
+//   cart:{},
+//   setCart:()=>{ },
+//   user:null,
+// });
+
+
+// function App() {
+//   const[categories,setCategories] = useState([]);
+//   const[product, setProducts] = useState([]);
+//   const[orders, setOrders] = useState ([]);
+//   const[cart,setCarts] = useState(()=>{
+//     return JSON.parse(localStorage.getItem("cart")) ||{};
+//   });
+//   const[user,setUser] = useState(null);
+//   useEffect(()=>{
+//     localStorage.setItem("cart", JSON.stringify(cart));
+//   },[cart]);
+//   useEffect(() => {
+//     onCategoriesLoad(setCategories);
+//     onProductsLoad(setProducts);
+//     onOrdersLoad(setOrders);
+//     onAuthChange(user => {
+//       if(user){
+//         user.isAdmin = user && user. email ==="meerim.dyikanbaeva@gmail.com";
+//       }
+//       setUser(user);
+//     })
+//   },[] );
+
+//   return (
+//     <div className='App'>
+  
+//       <AppContext.Provider value={{ categories, cart, user, orders }} >
+
+//         <Router>
+//           <Header />
+//           <CategoryList />
+//           <ProductList/>
+        
+//           <main>
+//             <div className="container">
+//               <Routes>
+//                 <Route path="/" element={<Home />} />
+//                 <Route path="about" element={<About />} />
+//                 <Route path="contacts" element={<Contacts />} />
+//                 <Route path="order" element={<Order />} />
+//                 <Route path="delivery" element={<Delivery />} />
+//                 <Route path="cart" element={<Cart />} />
+//                 <Route path="*" element={<NotFound />} />
+//               </Routes>
+//             </div>
+//           </main>
+//           <Footer />
+//         </Router>
+
+//       </AppContext.Provider>
+
+//     </div>
+
+//   );
+// }
+
+// export default App;
+import { Route, Routes } from "react-router-dom";
+import Layout from "./Components/Layout/Layout";
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
+import Contacts from "./Pages/Contacts/Contacts";
+import Delivery from "./Pages/Delivery/Delivery";
+import Category from "./Pages/Category/Category";
+import NotFound from "./Pages/NotFound/NotFound";
+import { createContext, useEffect, useState } from "react";
+import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from "./firebase";
+import Product from "./Pages/Product/Product";
+import { Cart } from "./Pages/Cart/Cart";
+
+import Orders from "./Pages/Orders/Orders";
+
 export const AppContext = createContext({
-  categories:[],
-  products:[],
-  orders:[],
-  cart:{},
-  setCart:()=>{ },
-  user:null,
+  categories: [],
+  products: [],
+  orders: [],
+  cart: {},
+  setCart: () => { },
+  user: null,
 });
 
-
 function App() {
-  const[categories,setCategories] = useState([]);
-  const[product, setProducts] = useState([]);
-  const[orders, setOrders] = useState ([]);
-  const[cart,setCarts] = useState(()=>{
-    return JSON.parse(localStorage.getItem("cart")) ||{};
+  const [categories, setCategories] = useState([]);
+  const [products, setProducts] = useState([]);
+  const [orders, setOrders] = useState([]);
+  const [cart, setCart] = useState(() => {
+    return JSON.parse(localStorage.getItem("cart")) || {};
   });
-  const[user,setUser] = useState(null);
-  useEffect(()=>{
+
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
-  },[cart]);
+  }, [cart]);
+
   useEffect(() => {
     onCategoriesLoad(setCategories);
     onProductsLoad(setProducts);
     onOrdersLoad(setOrders);
+
     onAuthChange(user => {
-      if(user){
-        user.isAdmin = user && user. email ==="meerim.dyikanbaeva@gmail.com";
+      if(user) {
+        user.isAdmin = user && user.email === "meerim.dyikanbaeva@gmail.com";
       }
+
       setUser(user);
     })
-  },[] );
+  }, []);
+
+
 
   return (
-    <div className='App'>
-  
-      <AppContext.Provider value={{ categories, cart, user, orders }} >
+    <div className="App">
+      <AppContext.Provider value={{ categories, products, cart, setCart, user, orders }} >
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contacts" element={<Contacts />} />
+            <Route path="/delivery" element={<Delivery />} />
+            <Route path="/categories/:slug" element={<Category />} />
+            <Route path="/products/:slug" element={<Product />} />
+            {/* <Route path="/thank-you" element={<ThankYou />} /> */}
+            <Route path="/orders" element={<Orders />} />
 
-        <Router>
-          <Header />
-          <CategoryList />
-          <ProductList/>
-        
-          <main>
-            <div className="container">
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="about" element={<About />} />
-                <Route path="contacts" element={<Contacts />} />
-                <Route path="order" element={<Order />} />
-                <Route path="delivery" element={<Delivery />} />
-                <Route path="cart" element={<Cart />} />
-                <Route path="*" element={<NotFound />} />
-              </Routes>
-            </div>
-          </main>
-          <Footer />
-        </Router>
-
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Layout>
       </AppContext.Provider>
-
     </div>
-
   );
 }
 
