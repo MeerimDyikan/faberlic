@@ -8,7 +8,7 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA3RH_sHZlSzYjgWFjMJ8ICqUaSmlM32MI",
+  apiKey: "AIzaSyBHr9EbbAcTZXwZE1L45rBISXY2dgpvdlU",
   authDomain: "test-react-24.firebaseapp.com",
   databaseURL: "https://test-react-24-default-rtdb.firebaseio.com",
   projectId: "test-react-24",
