@@ -1,13 +1,3 @@
-// import './Cart.css';
-// function Cart() {
-//   return (
-//     <>
-    
-//     </>
-//   );
-// }
-
-// export default Cart;
 import { useContext, useState } from "react";
 import CartList from "../../Components/CartList/CartList";
 import OrderForm from "../../Components/OrderForm/OrderForm";

@@ -1,90 +1,3 @@
-// import './App.css';
-// import Footer from './Components/Footer/Footer';
-
-// import Header from './Components/Header/Header';
-// import About from './Pages/About/About';
-// import Home from './Pages/Home/Home';
-// import Contacts from './Pages/Contacts/Contacts';
-// import Order from './Pages/Order/Order';
-// import Delivery from './Pages/Delivery/Delivery';
-// import Cart from './Pages/Cart/Cart';
-// import NotFound from './Pages/NotFound/NotFound';
-// import ProductList from "./Components/ProductList/ProductList";
-// import CategoryList from './Components/CategoryList/CategoryList';
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route
-// } from 'react-router-dom'
-// import { createContext, useEffect,useState } from 'react';
-// import { onAuthChange,onCategoriesLoad,onOrdersLoad,onProductsLoad } from './firebase';
-// export const AppContext = createContext({
-//   categories:[],
-//   products:[],
-//   orders:[],
-//   cart:{},
-//   setCart:()=>{ },
-//   user:null,
-// });
-
-
-// function App() {
-//   const[categories,setCategories] = useState([]);
-//   const[product, setProducts] = useState([]);
-//   const[orders, setOrders] = useState ([]);
-//   const[cart,setCarts] = useState(()=>{
-//     return JSON.parse(localStorage.getItem("cart")) ||{};
-//   });
-//   const[user,setUser] = useState(null);
-//   useEffect(()=>{
-//     localStorage.setItem("cart", JSON.stringify(cart));
-//   },[cart]);
-//   useEffect(() => {
-//     onCategoriesLoad(setCategories);
-//     onProductsLoad(setProducts);
-//     onOrdersLoad(setOrders);
-//     onAuthChange(user => {
-//       if(user){
-//         user.isAdmin = user && user. email ==="meerim.dyikanbaeva@gmail.com";
-//       }
-//       setUser(user);
-//     })
-//   },[] );
-
-//   return (
-//     <div className='App'>
-  
-//       <AppContext.Provider value={{ categories, cart, user, orders }} >
-
-//         <Router>
-//           <Header />
-//           <CategoryList />
-//           <ProductList/>
-        
-//           <main>
-//             <div className="container">
-//               <Routes>
-//                 <Route path="/" element={<Home />} />
-//                 <Route path="about" element={<About />} />
-//                 <Route path="contacts" element={<Contacts />} />
-//                 <Route path="order" element={<Order />} />
-//                 <Route path="delivery" element={<Delivery />} />
-//                 <Route path="cart" element={<Cart />} />
-//                 <Route path="*" element={<NotFound />} />
-//               </Routes>
-//             </div>
-//           </main>
-//           <Footer />
-//         </Router>
-
-//       </AppContext.Provider>
-
-//     </div>
-
-//   );
-// }
-
-// export default App;
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Pages/Home/Home";
@@ -97,7 +10,7 @@ import { createContext, useEffect, useState } from "react";
 import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad } from "./firebase";
 import Product from "./Pages/Product/Product";
 import { Cart } from "./Pages/Cart/Cart";
-
+import ThankYou from "./Pages/ThankYou/ThankYou";
 import Orders from "./Pages/Orders/Orders";
 
 export const AppContext = createContext({
@@ -130,7 +43,7 @@ function App() {
 
     onAuthChange(user => {
       if(user) {
-        user.isAdmin = user && user.email === "meerim.dyikanbaeva@gmail.com";
+        user.isAdmin = user && user.email === "almazdjanaliev@gmail.com";
       }
 
       setUser(user);
@@ -151,7 +64,7 @@ function App() {
             <Route path="/delivery" element={<Delivery />} />
             <Route path="/categories/:slug" element={<Category />} />
             <Route path="/products/:slug" element={<Product />} />
-            {/* <Route path="/thank-you" element={<ThankYou />} /> */}
+            <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/orders" element={<Orders />} />
 
             <Route path="*" element={<NotFound />} />

@@ -1,11 +1,10 @@
-import './Orders.css';
+import OrderList from "../../Components/OrderList/OrderList";
 
-function Orders() {
+export default function Orders() {
   return (
-    <>
-      Orders
-    </>
-  );
+    <div className="Orders">
+      <h1>Orders</h1>
+      <OrderList />
+    </div>
+  )
 }
-
-export default Orders;

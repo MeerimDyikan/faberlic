@@ -1,17 +1,24 @@
+// // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, onSnapshot } from "firebase/firestore";
 import { GoogleAuthProvider, getAuth, onAuthStateChanged, signInWithPopup, signOut } from 'firebase/auth';
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBHr9EbbAcTZXwZE1L45rBISXY2dgpvdlU",
-  authDomain: "faberlic-93284.firebaseapp.com",
-  projectId: "faberlic-93284",
-  storageBucket: "faberlic-93284.appspot.com",
-  messagingSenderId: "1053758160229",
-  appId: "1:1053758160229:web:cd6ad049d52ade4304758c",
+  apiKey: "AIzaSyA3RH_sHZlSzYjgWFjMJ8ICqUaSmlM32MI",
+  authDomain: "test-react-24.firebaseapp.com",
+  databaseURL: "https://test-react-24-default-rtdb.firebaseio.com",
+  projectId: "test-react-24",
+  storageBucket: "test-react-24.appspot.com",
+  messagingSenderId: "953116776213",
+  appId: "1:953116776213:web:e53b5925ca77097c89bb1c",
+  measurementId: "G-BTZC17XYPD"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 const auth = getAuth(app);
@@ -54,8 +61,9 @@ export const onOrdersLoad = (callback) =>
     )
   );
 
+  // отправка фотографии и получение ее url
 export const uploadProductPhoto = (file) => {
-  const storageRef = ref(storage, `products/${ file.name }`);
+  const storageRef = ref(storage, `products/${file.name}`);
   return uploadBytes(storageRef, file)
     .then(() => {
       return getDownloadURL(storageRef);
